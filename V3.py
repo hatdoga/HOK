@@ -313,7 +313,7 @@ def warlee():
     density1 = random.choice(["1.5","2.0","3.0"])
     width1 = random.choice(["540","720","1080"])
     height1 = str(random.randrange(999,2480))
-    user_agent = f"[FBAN/FB4A;FBAV/"+str(app_ver)+";FBBV/"+str(app_ver_code)+";FBDM/"+"{density="+str(density)+",width="+str(width)+",height="+str(height)+"};FBLC/en_US;FBCR/"+str(sim)+";FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/"+str(model)+";FBSV/"+str(and_ver)+";FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FB4A/;FBAV/YZWSES93;FBBV/342657617;FBAN/FB4A;FBAV/YZWSES93;FBBV/342657617;FBDM//*{density=3.0,width=1080,height=2560};FBLC/ja_JP;FBRV/554638314;FBCR/TECNO;FBMF/Xiaomi;FBBD/Megagate;FBPN/com.facebook.katana;FBDV/Motorola_Moto_G200;FBSV/16;FBOP/6;FBCA/armeabi;]"
+    user_agent = f"[FBAN/FB4A;FBAV/"+str(app_ver)+";FBBV/"+str(app_ver_code)+";FBDM/"+"{density="+str(density)+",width="+str(width)+",height="+str(height)+"};FBLC/en_US;FBCR/"+str(sim)+";FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/"+str(model)+";FBSV/"+str(and_ver)+";FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/Orca-Android;FBAV/137.0.0.47.188;FBBV/302191480;FBDM/{density=3.0,width=540,height=1265};FBLC/en_PK;FBCR/Jazz;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.orca;FBDV/vivo X20Plus A;FBSV/8;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     user_agents.append(f'"{user_agent}"')
     return user_agent
 #++++++
