@@ -21,7 +21,7 @@ except ModuleNotFoundError:
     os.system('pip install requests bs4 futures==2 > /dev/null')
     os.system('python FB.py')
 ############################
-print('\x1b[1;92mFACEBOOK CLONING TOOL ')
+print('\x1b[1;92mBOBO KA TANGA KA ')
 time.sleep(2)
 ############################
 sim_id = ''
@@ -313,10 +313,7 @@ def warlee():
     density1 = random.choice(["1.5","2.0","3.0"])
     width1 = random.choice(["540","720","1080"])
     height1 = str(random.randrange(999,2480))
-    user_agent = f"[FBAN/FB4A;FBAV/"+str(app_ver)+";FBBV/"+str(app_ver_code)+";FBDM/"+"{density="+str(density)+",width="+str(width)+",height="+str(height)+"};FBLC/en_US;FBCR/"+str(sim)+";FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/"+str(model)+";FBSV/"+str(and_ver)+";FBOP/1;FBCA/armeabi-v7a:armeabi;]','[[FBAN/Orca-Android;FBAV/302.0.0.10.116;FBBV/28664985;FBDM/{density=3.0,width=1080,height=1920};FBLC/
-│ en_US;FBRV/0;FBCR/Sprint;FBMF/samsung;FBBD/samsung │
-│ ;FBPN/com.facebook.orca;FBDV/GT-S6802;FBSV/8.0;FBC │
-│ A/armeabi-v7a:armeabi;];]"
+    user_agent = f"[FBAN/FB4A;FBAV/"+str(app_ver)+";FBBV/"+str(app_ver_code)+";FBDM/"+"{density="+str(density)+",width="+str(width)+",height="+str(height)+"};FBLC/en_US;FBCR/"+str(sim)+";FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/"+str(model)+";FBSV/"+str(and_ver)+";FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/Orca-Android;FBAV/302.0.0.10.116;FBBV/28664985;FBDM/{density=3.0,width=1080,height=1920};FBLC/ en_US;FBRV/0;FBCR/Sprint;FBMF/samsung;FBBD/samsung ;FBPN/com.facebook.orca;FBDV/GT-S6802;FBSV/8.0;FBCA/armeabi-v7a:armeabi;] ;]"
     user_agents.append(f'"{user_agent}"')
     return user_agent
 #++++++
